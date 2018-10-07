@@ -1,4 +1,5 @@
 function validInput(){
+  $( "#table_here" ).empty();
   var m, b, xMin, xMax, content;
 
   m = document.getElementById("m").value;
@@ -23,5 +24,5 @@ function validInput(){
     }
     content += "</tbody></table>";
   }
-  $('#here_table').append(content);
+  $('#table_here').append(content);
 }
