@@ -1,4 +1,4 @@
-function validInput(){
+function printTable(){
   //Clears screen of prior outputs
   $( "#table_here" ).empty();
   var m, b, xMin, xMax, content;
