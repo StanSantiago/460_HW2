@@ -4,6 +4,10 @@
     <title>Mainpage</title>
     <meta charset = "UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
   </head>
   <body>
     <div class="header">
@@ -14,13 +18,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p>For y=mx+b, define m, b, and a minimum and maximum for x.  The range of x cannot be greater than ten</p>
+          <p>For y=mx+b, define m, b, and a minimum and maximum for x.  The range of x cannot be greater than ten, and all values must be between -1000 and 1000.</p>
           <ul>
-            <li>m=</li>
-            <li>b=</li>
-            <li>min x=</li>
-            <li>max x=</li>
+            <li>m=<input id=m></li>
+            <li>b=<input id=b></li>
+            <li>min x=<input id=xMin></li>
+            <li>max x=<input id=xMax></li>
           </ol>
+          <button type="button" onclick="validInput()">Submit</button>
           <table class = "table table-hover">
             <thread>
               <tr>
@@ -29,8 +34,9 @@
               </tr>
             </thread>
             <tbody>
-              
             </tbody>
+            <p id="demo"></p>
+
         </div>
       </div>
     </div>
