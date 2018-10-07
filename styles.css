@@ -15,3 +15,22 @@ body {
   background-color: black;
   text-align-last: center;
 }
+
+p{
+   font-family: "Courier New", Courier;
+   font-size: 20px;
+   background-color: grey;
+
+}
+
+ul{
+  distplay: inline-block;
+  font-family: "Courier New", Courier;
+  font-size: 20px;
+  background-color: grey;
+  
+}
+
+.table{
+  background-color: grey;
+}
